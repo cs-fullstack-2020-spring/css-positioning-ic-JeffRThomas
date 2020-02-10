@@ -10,10 +10,17 @@ body{
 }
 .content{
     border: 1px solid green;
+    width: 45%;
+    position: relative;
+    float: left;
 }
 .sidebar{
     border: 1px solid  blue;
+    width: 45%;
+    position: relative;
+    float:right;
 }
 .footer{
+    clear:both;
     border: 1px solid purple;
 }
